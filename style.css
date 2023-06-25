@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+
+  ol, ul {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tal {
+    display: flex;
+    align-items: center;
+  }
+
+  .w30 {
+    width: 30%;
+  }
+
+  .w70 {
+    width: 70%;
+  }
+
+  .w100 {
+    width: 100%;
+  }
+
+  .gap24 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+  }
+
+  section {
+    padding: 100px 0;
+    gap: 24px;
+  }
+
+  #map {
+    height: 650px;
+    border-radius: 5px;
+  }
+
+  .z1, .z2, .z3, .z4, .z5, .z6, .z7 {
+    padding: 25px 40px;
+    background-color: rgba(254, 254, 254, 1);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #fff;
+  }
+
+  .highlight{
+    background-color:rgba(153, 204, 51, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
